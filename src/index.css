@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  user-select: none;
+}
+.Toastify__toast-body{
+  color: rgb(30 41 59);
+  font-weight: bold;
+}
