@@ -1,2 +1,3 @@
 # React JS Projects
-## [https://github.com/muhammadadeel-me/react-projects/tree/random-color-generator](https://github.com/muhammadadeel-me/react-projects/tree/random-color-generator)
+## [1. Random Color Generator in Reactjs](https://github.com/muhammadadeel-me/react-projects/tree/random-color-generator)
+## [2. Currency Converter app in reactjs](https://github.com/muhammadadeel-me/react-projects/tree/currency-converter)
