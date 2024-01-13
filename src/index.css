@@ -1,0 +1,63 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+
+  --red: #d22;
+  --red-dark: #c21e1e;
+  --light-blue: #E0E9F8;
+  --grey: #506175;
+  --success: #006B4D;
+  --warning: #EFC20F;
+  --danger: #DF6661;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 10px;
+}
+
+body {
+  min-height: 100dvh;
+  background-color: var(--light-blue);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+}
+
+button{
+  background-color: transparent;
+  border: none;
+  outline: none;
+  font-size: inherit;
+  cursor: pointer;
+}
+button:hover,
+button:focus,
+button:active{
+  outline: none;
+  background-color: transparent;
+}
+button:focus-visible,
+input:focus-visible{
+  outline: 2px solid var(--danger);
+  outline-offset: 0.2em;
+  border-radius: 5px;
+}
+
+.btn-primary{
+  background-color: var(--red);
+  color: #fff;
+  border-radius: 100px;
+  padding: 1.2rem 3.5rem;
+  transition: all 0.2s;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  background-color: var(--red-dark);
+}
